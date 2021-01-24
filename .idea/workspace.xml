@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e864f31-70a2-441a-8731-de0f0d3dd5c6" name="Default Changelist" comment="" />
+    <list default="true" id="8e864f31-70a2-441a-8731-de0f0d3dd5c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3_API_30" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -20,7 +26,7 @@
     </system>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/WeatherWear" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1nXGM0Eo26ki7IOKz8wXM7hbdyn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -33,6 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -107,7 +114,36 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/WeatherWear" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="1520" y="350" key="#Notifications" timestamp="1611529411415">
+      <screen x="0" y="25" width="2560" height="1326" />
+    </state>
+    <state x="1520" y="350" key="#Notifications/0.25.2560.1326@0.25.2560.1326" timestamp="1611529411415" />
+    <state width="1238" height="376" key="GridCell.Tab.0.bottom" timestamp="1611529451173">
+      <screen x="0" y="25" width="2560" height="1326" />
+    </state>
+    <state width="1238" height="376" key="GridCell.Tab.0.bottom/0.25.2560.1326@0.25.2560.1326" timestamp="1611529451173" />
+    <state width="1238" height="376" key="GridCell.Tab.0.center" timestamp="1611529451172">
+      <screen x="0" y="25" width="2560" height="1326" />
+    </state>
+    <state width="1238" height="376" key="GridCell.Tab.0.center/0.25.2560.1326@0.25.2560.1326" timestamp="1611529451172" />
+    <state width="1238" height="376" key="GridCell.Tab.0.left" timestamp="1611529451171">
+      <screen x="0" y="25" width="2560" height="1326" />
+    </state>
+    <state width="1238" height="376" key="GridCell.Tab.0.left/0.25.2560.1326@0.25.2560.1326" timestamp="1611529451171" />
+    <state width="1238" height="376" key="GridCell.Tab.0.right" timestamp="1611529451172">
+      <screen x="0" y="25" width="2560" height="1326" />
+    </state>
+    <state width="1238" height="376" key="GridCell.Tab.0.right/0.25.2560.1326@0.25.2560.1326" timestamp="1611529451172" />
+    <state x="1421" y="324" key="SettingsEditor" timestamp="1611529488540">
+      <screen x="0" y="25" width="2560" height="1326" />
+    </state>
+    <state x="1421" y="324" key="SettingsEditor/0.25.2560.1326@0.25.2560.1326" timestamp="1611529488540" />
     <state x="1700" y="609" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611529101245">
       <screen x="0" y="25" width="2560" height="1326" />
     </state>
