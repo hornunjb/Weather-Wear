@@ -48,4 +48,18 @@ Imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque.
 
 **Then** I should
 
+## Class Diagram
 
+### Class Diagram Description
+
+**MainActivity:**
+
+## Scrum Roles
+
+- 
+- 
+- 
+
+## Weekly Meeting
+
+TBD
