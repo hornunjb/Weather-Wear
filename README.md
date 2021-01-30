@@ -93,13 +93,13 @@ Temperature is in the Fahrenheit scale
         	Feels Like: 36°F
         	Condition: Raining
                
-###Requirement 101.0: Create Outfit Recommendations
+### Requirement 101.0: Create Outfit Recommendations
  
-####Scenario
+#### Scenario
 
 As a user interested in what to wear based on the weather, I want to be able to create tailored outfit recommendations and adjust my wardrobe so that I can decide what to wear given the day’s forecast.
  
-####Dependencies
+#### Dependencies
 
 Catalog of the user's wardrobe is available, accessible, and editable.
 
@@ -111,13 +111,13 @@ Recommendations are tied to notifications based on conditions and temperature.
 
 Default clothing options are available and selectable when creating a recommendation.
  
-####Assumptions
+#### Assumptions
 
 There are default outfit recommendations for different ranges of temperatures.
 
 User’s wardrobe is initially empty.
  
-####Examples
+#### Examples
  
 1.1
 
