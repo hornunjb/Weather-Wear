@@ -15,9 +15,11 @@ WeatherWear is a custom weather app personally tailored for you and only you! We
 
 ## Storyboard
 
-[WeatherWear Storyboard Play Link](https://projects.invisionapp.com/prototype/WeatherWearStoryboard-ckkboe9z900bgk6015wl3uryu/play/7a2500d0)
+[InVision Storyboard Prototype](https://projects.invisionapp.com/prototype/ckkjua9el002sx201666dlhfv/play)
 
-![WeatherWear Storyboard Artboards](https://user-images.githubusercontent.com/54491123/105647698-6a261f80-5e75-11eb-9056-4555094fd501.png)
+[InvVision Storyboard Artboards](https://projects.invisionapp.com/prototype/WeatherWear-Storyboard-ckkjua9el002sx201666dlhfv)
+
+![Storyboard](https://user-images.githubusercontent.com/54491123/106366940-0c7a5300-630d-11eb-901b-662f8ac06478.png)
 
 ## Functional Requirements 
 
