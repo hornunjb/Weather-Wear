@@ -189,8 +189,55 @@ User’s wardrobe is initially empty.
 **Then** the selected recommendation is not added to the recommendation list and is displayed such that:
 
         	Warning: You did not fill out the required fields!
-           
-          
+                
+### Requirement 102.0: Receive Forecast Change Notifications
+ 
+#### Scenario
+
+As a user interested in sudden changes of weather conditions, I want to be able to receive custom notifications so that I can change my outfit accordingly based on the setup configured recommendations.
+ 
+#### Dependencies
+
+Notifications are tied to different weather conditions in the recommendations list.
+ 
+#### Assumptions
+
+Default notifications are available.
+
+Default recommendations are available.
+
+The user has WeatherWear app notifications enabled on their device
+ 
+#### Example
+ 
+1.1
+
+**Given** a recommendation with a custom configuration as follows:
+
+        Clothing: Umbrella
+        Conditions: Raining
+        Temp < 50°F
+        
+**When** the weather changes to meet conditions and temp requirement
+
+**Then** I will receive a notification that displays:
+
+        It is now raining and below 50 degrees, you should grab an umbrella!
+ 
+1.2
+
+**Given** a recommendation with a custom configuration as follows:
+
+        Clothing: Heavy Jacket
+        Conditions: Snowing
+        Temp: Any
+        
+**When** the weather changes to meet conditions and temp requirement
+
+**Then** I will receive a notification that displays:
+
+        It is now snowing; you should put on a heavy jacket!
+
 ## Class Diagram
 
 ### Class Diagram Description
