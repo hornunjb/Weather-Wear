@@ -17,38 +17,78 @@ WeatherWear is a custom weather app personally tailored for you and only you! We
 
 [InVision Storyboard Prototype](https://projects.invisionapp.com/prototype/ckkjua9el002sx201666dlhfv/play)
 
-[InvVision Storyboard Artboards](https://projects.invisionapp.com/prototype/WeatherWear-Storyboard-ckkjua9el002sx201666dlhfv)
+[InVision Storyboard Artboards](https://projects.invisionapp.com/prototype/WeatherWear-Storyboard-ckkjua9el002sx201666dlhfv)
 
 ![Storyboard](https://user-images.githubusercontent.com/54491123/106366940-0c7a5300-630d-11eb-901b-662f8ac06478.png)
 
 ## Functional Requirements 
 
-### Requirement 100.0 Search for Cities
+### Requirement 100.0 Search for Weather Conditions of a City
 
 ##### Scenario
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+As a user interested in a city’s weather forecast, I want to be able to search for a city of my choice so that I can view that city’s temperature and weather conditions.
 
 ##### Dependencies
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+City search data is available and accessible.
+
+City weather data is available and accessible.
+
+User’s device has GPS capabilities and has granted location access.
+
 
 ##### Assumptions
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Searchable cities are specific to the United States.
 
-Imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque.
+City’s initial weather data retrieved is that of the user’s location.
+
+Temperature is in the Fahrenheit scale
+
 
 #### Examples
 
 1.1
 
-**Given** Blank
+**Given** a city’s weather data is available
 
-**When** I
+**When** I search for “Cleveland”
 
-**Then** I should
+**Then** I should receive weather data with the results of:
 
+        	City: Cleveland
+        	Actual Temperature: 28°F
+        	Feels Like: 22°F
+        	Condition: Snowing
+          
+1.2
+
+**Given** a city’s weather data is available
+
+**When** I search for “_____”
+
+**Then** I should receive my current location’s weather with results of:
+
+        	City: Cincinnati (Current Location)
+        	Actual: 39°F
+        	Feels Like: 36°F
+        	Condition: Raining
+
+1.3
+
+**Given** a city’s weather data is available
+
+**When** I search for “wasdqwerty”
+
+**Then** I should receive my current location’s weather with results of:
+
+        	Warning: ‘Selected City Not Found – Setting to Current Location’
+        	City: Cincinnati (Current Location)
+        	Actual: 39°F
+        	Feels Like: 36°F
+        	Condition: Raining
+          
 ## Class Diagram
 
 ### Class Diagram Description
