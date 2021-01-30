@@ -19,9 +19,9 @@ WeatherWear is a custom weather app personally tailored for you and only you! We
 
 ## Storyboard
 
-[InVision Prototype Link](https://projects.invisionapp.com/prototype/ckkjua9el002sx201666dlhfv/play)
+[InVision Prototype](https://projects.invisionapp.com/prototype/ckkjua9el002sx201666dlhfv/play)
 
-[InVision Artboards Link](https://projects.invisionapp.com/prototype/WeatherWear-Storyboard-ckkjua9el002sx201666dlhfv)
+[InVision Artboards](https://projects.invisionapp.com/prototype/WeatherWear-Storyboard-ckkjua9el002sx201666dlhfv)
 
 ![Storyboard](https://user-images.githubusercontent.com/54491123/106366940-0c7a5300-630d-11eb-901b-662f8ac06478.png)
 
@@ -240,16 +240,46 @@ The user has WeatherWear app notifications enabled on their device
 
 ## Class Diagram
 
+![Class Diagram](https://user-images.githubusercontent.com/54491123/106367350-03d74c00-6310-11eb-8ea9-d888e975e498.png)
+
 ### Class Diagram Description
 
-**MainActivity:**
+**MainActivity:** The first screen the user sees.  This will have a list of weather conditions based on the user location.
 
-## Scrum Roles
+**RecommendedClothingDetail:** A screen that shows the user recommendations for the  conditions.
 
-- 
-- 
-- 
+**RetrofitInstance:** Bootstrap class required for Retrofit.
 
-## Weekly Meeting
+**Weather:** Noun Class that represents weather conditions.
 
-TBD
+**User:** Noun Class that represents user information.
+
+**RecommendedClothing:** Noun class represents recommended clothing.
+
+**IWeatherDAO:** Interface for Retrofit to find and parse Weather JSON.
+
+**IClothingDAO:** Interface for Room to persist Recommended Clothing data.
+
+## GitHub, Scrum Roles, and Project Kanban Board
+
+[GitHub Repository](https://github.com/hornunjb/Weather-Wear)
+
+[GitHub Project Boards](https://github.com/hornunjb/Weather-Wear/projects)
+
+[Sprint 1 Kanban Board](https://github.com/hornunjb/Weather-Wear/projects/3)
+
+**Scrum Roles**:
+
+DevOps and Product Owner – Jacob Hornung
+
+UI Specialist – Mark Rankey
+
+Integration Specialist – Mason Mickelini
+
+**Discord Server Link for Meetings:**
+ 
+Meetings at 8:00pm on Sundays
+
+https://discord.gg/RCUfgjSJ
+
+
