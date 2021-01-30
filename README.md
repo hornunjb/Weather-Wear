@@ -270,16 +270,16 @@ The user has WeatherWear app notifications enabled on their device
 
 **Scrum Roles**:
 
-DevOps and Product Owner – Jacob Hornung
+- DevOps and Product Owner – Jacob Hornung
 
-UI Specialist – Mark Rankey
+- UI Specialist – Mark Rankey
 
-Integration Specialist – Mason Mickelini
+- Integration Specialist – Mason Mickelini
 
 **Discord Server Link for Meetings:**
  
-Meetings at 8:00pm on Sundays
+- Meetings at 8:00pm on Sundays
 
-https://discord.gg/RCUfgjSJ
+- https://discord.gg/RCUfgjSJ
 
 
