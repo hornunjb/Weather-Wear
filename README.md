@@ -1,6 +1,4 @@
-# Weather-Wear
-Group Project for IT3048C
-
+# WeatherWear
 ---
 
 Design Document
