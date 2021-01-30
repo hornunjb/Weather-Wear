@@ -1,8 +1,12 @@
 # WeatherWear
 
-Design Document
+**Design Document**
 
 Jacob Hornung
+
+Mason Miceklini
+
+Mark Rankey
 
 ## Introduction
 
@@ -88,6 +92,104 @@ Temperature is in the Fahrenheit scale
         	Actual: 39°F
         	Feels Like: 36°F
         	Condition: Raining
+               
+###Requirement 101.0: Create Outfit Recommendations
+ 
+####Scenario
+
+As a user interested in what to wear based on the weather, I want to be able to create tailored outfit recommendations and adjust my wardrobe so that I can decide what to wear given the day’s forecast.
+ 
+####Dependencies
+
+Catalog of the user's wardrobe is available, accessible, and editable.
+
+List of active recommendations is available, accessible, and editable.
+
+Outfit recommendations are compatible with available wardrobe items.
+
+Recommendations are tied to notifications based on conditions and temperature.
+
+Default clothing options are available and selectable when creating a recommendation.
+ 
+####Assumptions
+
+There are default outfit recommendations for different ranges of temperatures.
+
+User’s wardrobe is initially empty.
+ 
+####Examples
+ 
+1.1
+
+**Given** an empty recommendation list
+
+**When** I add a recommendation
+
+- Hit plus button
+- Fill out empty form values as follows:
+
+        Clothing: Pants
+        Conditions: Any
+        Min Temp: _____
+        Max Temp: 50°F
+
+- Hit ‘confirm’ button
+
+**Then** my custom recommendation is added to the list and is displayed such that:
+
+                Clothing: Pants
+        	Conditions: Any
+        	Temp: < 50°F
+ 
+1.2
+
+**Given** an empty recommendation list
+
+**When** I add a recommendation
+- Hit plus button
+- Fill out empty form values as follows:
+
+        Clothing: Light Jacket
+        Conditions: Raining
+        Min Temp: 50°F
+        Max Temp: 60°F
+        
+- Hit ‘confirm’ button
+
+**Then** my custom recommendation is added to the list and is displayed such that:
+
+                Clothing: Light Jacket
+        	Conditions: Raining
+        	Temp: 50°F - 60°F
+ 
+1.3
+
+**Given** a recommendation list with recommendations
+
+**When** I delete a recommendation
+- Hit minus button
+- Select existing recommendation
+
+**Then** the selected recommendation is removed from the recommendation list
+ 
+1.4
+
+**Given** an empty recommendation list
+**When** I add a recommendation
+- Hit plus button
+- Fill out empty form values as follows:
+
+        Clothing: _____
+        Conditions: _____
+        Min Temp: _____
+        Max Temp: _____
+        
+- Hit ‘confirm’ button
+
+**Then** the selected recommendation is not added to the recommendation list and is displayed such that:
+
+        	Warning: You did not fill out the required fields!
+           
           
 ## Class Diagram
 
