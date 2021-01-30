@@ -137,9 +137,9 @@ User’s wardrobe is initially empty.
 
 **Then** my custom recommendation is added to the list and is displayed such that:
 
-                Clothing: Pants
-        	Conditions: Any
-        	Temp: < 50°F
+        Clothing: Pants
+        Conditions: Any
+        Temp: < 50°F
  
 1.2
 
@@ -149,18 +149,18 @@ User’s wardrobe is initially empty.
 - Hit plus button
 - Fill out empty form values as follows:
 
-        Clothing: Light Jacket
-        Conditions: Raining
-        Min Temp: 50°F
-        Max Temp: 60°F
+       Clothing: Light Jacket
+       Conditions: Raining
+       Min Temp: 50°F
+       Max Temp: 60°F
         
 - Hit ‘confirm’ button
 
 **Then** my custom recommendation is added to the list and is displayed such that:
 
-                Clothing: Light Jacket
-        	Conditions: Raining
-        	Temp: 50°F - 60°F
+       Clothing: Light Jacket
+       Conditions: Raining
+       Temp: 50°F - 60°F
  
 1.3
 
