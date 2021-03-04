@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">WeatherWear</string>
+    <string name="location"><stroke>Location</stroke></string>
+    <string name="actualTemp"><u>Actual</u></string>
+    <string name="feelsLike"><u>Feels Like</u></string>
+    <string name="actualTempValue">Actual Temperature Value</string>
+    <string name="feelsLikeTempValue">Feels Like Temperature Value</string>
+    <string name="condition">Condition</string>
+    <string name="recommendations">Recommendations</string>
+    <string name="recommendationsList">Recommendations List</string>
 </resources>
