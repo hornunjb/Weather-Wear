@@ -28,31 +28,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e864f31-70a2-441a-8731-de0f0d3dd5c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/dto/Clouds.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/dto/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/dto/Rain.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/dto/Sys.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/dto/WeatherResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/dto/Wind.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/WeatherWear.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/WeatherWear.app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/dto/Coord.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/dto/Weather.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/dto/Weather.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/ui/main/MainFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/ui/main/MainFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/ui/main/MainViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/ui/main/MainViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/dto/WeatherResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/dto/WeatherResponse.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,6 +177,14 @@
       <option name="presentableId" value="Default" />
       <updated>1611528969794</updated>
     </task>
+    <task id="LOCAL-00001" summary="seperated the classes">
+      <created>1615148246921</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615148246921</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +203,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/WeatherWear" />
     </ignored-roots>
+    <MESSAGE value="seperated the classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="seperated the classes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1520" y="350" key="#Notifications" timestamp="1611529411415">
@@ -241,10 +231,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1469" y="489" key="AndroidCreateXmlResourceDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1614880675565" />
-    <state x="1547" y="271" key="CommitChangelistDialog2" timestamp="1615148166090">
+    <state x="1547" y="271" key="CommitChangelistDialog2" timestamp="1615148246080">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1547" y="271" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1615148166090" />
+    <state x="1547" y="271" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1615148246080" />
     <state x="1630" y="454" key="FileChooserDialogImpl" timestamp="1614882820986">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -273,6 +263,10 @@
       <screen x="0" y="25" width="2560" height="1326" />
     </state>
     <state x="1421" y="324" key="SettingsEditor/0.25.2560.1326@0.25.2560.1326" timestamp="1611529488540" />
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2" timestamp="1615148263838">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1615148263838" />
     <state x="1700" y="609" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611529101245">
       <screen x="0" y="25" width="2560" height="1326" />
     </state>

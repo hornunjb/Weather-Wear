@@ -1,6 +1,7 @@
 package edu.uc.hornunjb.weatherwear.dto
 
 import com.google.gson.annotations.SerializedName
+import java.lang.StringBuilder
 import java.util.ArrayList
 
 class WeatherResponse (
@@ -26,4 +27,26 @@ var id: Int = 0,
 var name: String? = null,
     @SerializedName("cod")
 var cod: Float = 0.toFloat()
-)
+){
+    override fun toString(): String {
+        val stringBuilder = "Country: " +
+                sys!!.country +
+                "\n" +
+                "Temperature: " +
+                main!!.temp +
+                "\n" +
+                "Temperature(Min): " +
+                main!!.temp_min +
+                "\n" +
+                "Temperature(Max): " +
+                main!!.temp_max +
+                "\n" +
+                "Humidity: " +
+                main!!.humidity +
+                "\n" +
+                "Pressure: " +
+                main!!.pressure
+
+        return stringBuilder
+    }
+}

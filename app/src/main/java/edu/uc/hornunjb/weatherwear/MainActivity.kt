@@ -44,25 +44,8 @@ class MainActivity : AppCompatActivity() {
                 if (response.code() == 200) {
                     val weatherResponse = response.body()!!
 
-                    val stringBuilder = "Country: " +
-                            weatherResponse.sys!!.country +
-                            "\n" +
-                            "Temperature: " +
-                            weatherResponse.main!!.temp +
-                            "\n" +
-                            "Temperature(Min): " +
-                            weatherResponse.main!!.temp_min +
-                            "\n" +
-                            "Temperature(Max): " +
-                            weatherResponse.main!!.temp_max +
-                            "\n" +
-                            "Humidity: " +
-                            weatherResponse.main!!.humidity +
-                            "\n" +
-                            "Pressure: " +
-                            weatherResponse.main!!.pressure
 
-                    weatherData!!.text = stringBuilder
+                    weatherData!!.text = weatherResponse.toString()
                 }
             }
 
