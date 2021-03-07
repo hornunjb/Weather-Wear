@@ -27,14 +27,9 @@ class MainActivity : AppCompatActivity() {
             supportFragmentManager.beginTransaction()
                     .replace(R.id.container, MainFragment.newInstance())
                     .commitNow()
+
         }
 
-       /* NOTE: Here I was trying to display the weather data under the actual temp value, but
-          the way the MainFragment is setup with the ViewModel and  MainActivity makes this a bit more confusing.
-          It throws a null pointer reference error and the app will crash */
-
-       // weatherData = findViewById(R.id.lblActualTempValue)
-       // findViewById<View>(R.id.btnRecommendations).setOnClickListener{getCurrentData()}
     }
 
     internal fun getCurrentData() {
