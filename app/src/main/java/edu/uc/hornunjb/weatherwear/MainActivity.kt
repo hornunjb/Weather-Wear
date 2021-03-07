@@ -27,14 +27,9 @@ class MainActivity : AppCompatActivity() {
             supportFragmentManager.beginTransaction()
                     .replace(R.id.container, MainFragment.newInstance())
                     .commitNow()
+
         }
 
-       /* NOTE: Here I was trying to display the weather data under the actual temp value, but
-          the way the MainFragment is setup with the ViewModel and  MainActivity makes this a bit more confusing.
-          It throws a null pointer reference error and the app will crash */
-
-       // weatherData = findViewById(R.id.lblActualTempValue)
-       // findViewById<View>(R.id.btnRecommendations).setOnClickListener{getCurrentData()}
     }
 
     internal fun getCurrentData() {
@@ -48,26 +43,7 @@ class MainActivity : AppCompatActivity() {
             override fun onResponse(call: Call<WeatherResponse>, response: Response<WeatherResponse>) {
                 if (response.code() == 200) {
                     val weatherResponse = response.body()!!
-
-                    val stringBuilder = "Country: " +
-                            weatherResponse.sys!!.country +
-                            "\n" +
-                            "Temperature: " +
-                            weatherResponse.main!!.temp +
-                            "\n" +
-                            "Temperature(Min): " +
-                            weatherResponse.main!!.temp_min +
-                            "\n" +
-                            "Temperature(Max): " +
-                            weatherResponse.main!!.temp_max +
-                            "\n" +
-                            "Humidity: " +
-                            weatherResponse.main!!.humidity +
-                            "\n" +
-                            "Pressure: " +
-                            weatherResponse.main!!.pressure
-
-                    weatherData!!.text = stringBuilder
+                    weatherData!!.text = weatherResponse.toString()
                 }
             }
 
