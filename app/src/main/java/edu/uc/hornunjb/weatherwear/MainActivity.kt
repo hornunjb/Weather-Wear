@@ -43,8 +43,6 @@ class MainActivity : AppCompatActivity() {
             override fun onResponse(call: Call<WeatherResponse>, response: Response<WeatherResponse>) {
                 if (response.code() == 200) {
                     val weatherResponse = response.body()!!
-
-
                     weatherData!!.text = weatherResponse.toString()
                 }
             }

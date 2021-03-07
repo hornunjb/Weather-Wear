@@ -4,6 +4,10 @@ import com.google.gson.annotations.SerializedName
 import java.lang.StringBuilder
 import java.util.ArrayList
 
+/**
+ * @author meyer3cj
+ * This class will gather the information from the other classes
+ */
 class WeatherResponse (
     @SerializedName("coord")
     var coord: Coord? = null,
@@ -50,3 +54,4 @@ var cod: Float = 0.toFloat()
         return stringBuilder
     }
 }
+

@@ -28,10 +28,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e864f31-70a2-441a-8731-de0f0d3dd5c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/dto/Coord.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/dto/Weather.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/dto/Weather.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/dto/WeatherResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/dto/WeatherResponse.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +37,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[R58M94AG12D]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -184,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615148246921</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="shortened the method in the main activity and overrode the WeatherResponse.tostring method">
+      <created>1615150078444</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615150078444</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,7 +209,8 @@
       <path value="$PROJECT_DIR$/WeatherWear" />
     </ignored-roots>
     <MESSAGE value="seperated the classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="seperated the classes" />
+    <MESSAGE value="shortened the method in the main activity and overrode the WeatherResponse.tostring method" />
+    <option name="LAST_COMMIT_MESSAGE" value="shortened the method in the main activity and overrode the WeatherResponse.tostring method" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1520" y="350" key="#Notifications" timestamp="1611529411415">
@@ -231,10 +237,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1469" y="489" key="AndroidCreateXmlResourceDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1614880675565" />
-    <state x="1547" y="271" key="CommitChangelistDialog2" timestamp="1615148246080">
+    <state x="1547" y="271" key="CommitChangelistDialog2" timestamp="1615150077725">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1547" y="271" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1615148246080" />
+    <state x="1547" y="271" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1615150077725" />
     <state x="1630" y="454" key="FileChooserDialogImpl" timestamp="1614882820986">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -263,10 +269,10 @@
       <screen x="0" y="25" width="2560" height="1326" />
     </state>
     <state x="1421" y="324" key="SettingsEditor/0.25.2560.1326@0.25.2560.1326" timestamp="1611529488540" />
-    <state x="1512" y="436" key="Vcs.Push.Dialog.v2" timestamp="1615148263838">
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2" timestamp="1615150083165">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1512" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1615148263838" />
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1615150083165" />
     <state x="1700" y="609" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611529101245">
       <screen x="0" y="25" width="2560" height="1326" />
     </state>
