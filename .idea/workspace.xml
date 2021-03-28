@@ -33,32 +33,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e864f31-70a2-441a-8731-de0f0d3dd5c6" name="Default Changelist" comment="Small Changes">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/SplashScreenActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/ui/main/WeatherDataFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/weatherlogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/weather_data_fragment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/repo/clothesRepository.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/WeatherWear.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/WeatherWear.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/ui/main/MainFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/main_activity.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/main_fragment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/ui/main/MainViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/uc/hornunjb/weatherwear/ui/main/MainViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/weather_data_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/weather_data_fragment.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +212,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616801580319</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Created SplashScreen, Recreated App Theme and Main Fragment.">
+      <created>1616883140184</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616883140184</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adding Font">
+      <created>1616883751334</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616883751334</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,7 +268,8 @@
     <MESSAGE value="Reworked API Calls and GSON parsing, temporarily disconnected MainFragment from MainActivity." />
     <MESSAGE value="Small Changes" />
     <MESSAGE value="Created SplashScreen, Recreated App Theme and Main Fragment." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created SplashScreen, Recreated App Theme and Main Fragment." />
+    <MESSAGE value="Adding Font" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Font" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1520" y="350" key="#Notifications" timestamp="1611529411415">
@@ -320,46 +318,46 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1630" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1614882820986" />
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1616881766195">
+    <state width="1860" height="277" key="GridCell.Tab.0.bottom" timestamp="1616953312270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1616881766195" />
+    <state width="1860" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1616953312270" />
     <state width="1373" height="356" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1614887040345" />
     <state width="1238" height="376" key="GridCell.Tab.0.bottom/0.25.2560.1326@0.25.2560.1326" timestamp="1611529451173" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1616881766194">
+    <state width="1860" height="277" key="GridCell.Tab.0.center" timestamp="1616953312270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1616881766194" />
+    <state width="1860" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1616953312270" />
     <state width="1373" height="356" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1614887040345" />
     <state width="1238" height="376" key="GridCell.Tab.0.center/0.25.2560.1326@0.25.2560.1326" timestamp="1611529451172" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1616881766194">
+    <state width="1860" height="277" key="GridCell.Tab.0.left" timestamp="1616953312270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1616881766194" />
+    <state width="1860" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1616953312270" />
     <state width="1373" height="356" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1614887040345" />
     <state width="1238" height="376" key="GridCell.Tab.0.left/0.25.2560.1326@0.25.2560.1326" timestamp="1611529451171" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1616881766195">
+    <state width="1860" height="277" key="GridCell.Tab.0.right" timestamp="1616953312270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1616881766195" />
+    <state width="1860" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1616953312270" />
     <state width="1373" height="356" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1614887040345" />
     <state width="1238" height="376" key="GridCell.Tab.0.right/0.25.2560.1326@0.25.2560.1326" timestamp="1611529451172" />
-    <state width="1860" height="277" key="GridCell.Tab.1.bottom" timestamp="1616859852957">
+    <state width="1860" height="277" key="GridCell.Tab.1.bottom" timestamp="1616953312262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="277" key="GridCell.Tab.1.bottom/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1616859852957" />
-    <state width="1860" height="277" key="GridCell.Tab.1.center" timestamp="1616859852957">
+    <state width="1860" height="277" key="GridCell.Tab.1.bottom/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1616953312262" />
+    <state width="1860" height="277" key="GridCell.Tab.1.center" timestamp="1616953312262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="277" key="GridCell.Tab.1.center/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1616859852957" />
-    <state width="1860" height="277" key="GridCell.Tab.1.left" timestamp="1616859852957">
+    <state width="1860" height="277" key="GridCell.Tab.1.center/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1616953312262" />
+    <state width="1860" height="277" key="GridCell.Tab.1.left" timestamp="1616953312261">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="277" key="GridCell.Tab.1.left/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1616859852957" />
-    <state width="1860" height="277" key="GridCell.Tab.1.right" timestamp="1616859852957">
+    <state width="1860" height="277" key="GridCell.Tab.1.left/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1616953312261" />
+    <state width="1860" height="277" key="GridCell.Tab.1.right" timestamp="1616953312262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="277" key="GridCell.Tab.1.right/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1616859852957" />
+    <state width="1860" height="277" key="GridCell.Tab.1.right/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1616953312262" />
     <state x="356" y="158" key="SettingsEditor" timestamp="1616777025871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -373,16 +371,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1616782538530" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1616871445226">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1616953545834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1616871445226" />
-  </component>
-  <component name="XDebuggerManager">
-    <pin-to-top-manager>
-      <pinned-members>
-        <PinnedItemInfo typeName="edu.uc.hornunjb.weatherwear.dto.WeatherResponse" fieldName="wind" />
-      </pinned-members>
-    </pin-to-top-manager>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-2560.0.2560.1040@0.0.1920.1040" timestamp="1616953545834" />
   </component>
 </project>

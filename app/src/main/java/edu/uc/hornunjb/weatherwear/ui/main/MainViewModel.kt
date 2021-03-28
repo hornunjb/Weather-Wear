@@ -1,8 +1,8 @@
 package edu.uc.hornunjb.weatherwear.ui.main
 
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
+import android.os.Bundle
+import androidx.lifecycle.*
+import edu.uc.hornunjb.weatherwear.R
 import edu.uc.hornunjb.weatherwear.dto.WeatherResponse
 import edu.uc.hornunjb.weatherwear.repo.Repository
 import kotlinx.coroutines.launch
@@ -17,4 +17,7 @@ class MainViewModel(private val repository: Repository) : ViewModel() {
             myResponse.value = response
         }
     }
+
+
+
 }
