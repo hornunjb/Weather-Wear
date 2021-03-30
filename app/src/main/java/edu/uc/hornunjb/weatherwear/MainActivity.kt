@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         val repository = Repository()
         val viewModelFactory = MainViewModelFactory(repository)
         viewModel = ViewModelProvider(this, viewModelFactory).get(MainViewModel::class.java)
-        viewModel.getPost()
+        viewModel.getWeather()
 
         viewModel.myResponse.observe(this, Observer { response ->
 
