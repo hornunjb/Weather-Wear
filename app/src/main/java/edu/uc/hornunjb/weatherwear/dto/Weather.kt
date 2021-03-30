@@ -10,7 +10,11 @@ data class WeatherResponse(
     var wind: Wind,
     var sys: Sys,
     var name: String
-)
+){
+    override fun toString(): String{
+        return "It is ${weather[0].description} in ${name}"
+    }
+}
 
 class Weather {
     @SerializedName("id")
