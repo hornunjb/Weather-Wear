@@ -6,7 +6,11 @@ import edu.uc.hornunjb.weatherwear.utils.Constants
 import retrofit2.Call
 
 class Repository {
-    suspend fun getPost() : WeatherResponse {
+    /*
+     This returns the weather of the location found in the constants class
+     @return a weather response object for the call
+     */
+    suspend fun getWeather() : WeatherResponse {
         return RetrofitInstance.api.getCityWeatherData(Constants.CITY, Constants.APP_ID)
     }
 }
