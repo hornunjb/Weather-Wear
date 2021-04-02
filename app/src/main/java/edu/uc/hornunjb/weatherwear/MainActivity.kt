@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
             val tempRange = round((response.main.temp_min -273)*9/5 + 32).toString() + " to " + round((response.main.temp_max -273)*9/5 + 32).toString() + " Degrees"
             Toast.makeText(this, tempRange, Toast.LENGTH_LONG).show()
             val wind = response.wind.speed.toString() + " mph"
-            val otherConditions = response.weather[0].main.toString() + " - " +  response.weather[0].description.toString() + "\n" + "Humidity: " + humidity + "       " + "Pressure: " + pressure + " units" + "\n" + "Wind: " + wind
+            val otherConditions = response.weather[0].main.toString() + " - " +  response.weather[0].description.toString() + "\n" + "Humidity: " + humidity + "       " + "\n" + "Pressure: " + pressure + " units" + "\n" + "Wind: " + wind
 
             //Finding Fragment Labels by Id and setting them to our response
             cityText = findViewById(R.id.lblLocationPlaceholder)
