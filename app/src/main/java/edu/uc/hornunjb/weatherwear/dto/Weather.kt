@@ -3,28 +3,13 @@ package edu.uc.hornunjb.weatherwear.dto
 import com.google.gson.annotations.SerializedName
 import java.util.ArrayList
 
-data class WeatherResponse(
-    var coord: Coord,
-    var weather: ArrayList<Weather>,
-    var main: Main,
-    var wind: Wind,
-    var sys: Sys,
-    var name: String
-){
+data class WeatherResponse(var coord: Coord, var weather: ArrayList<Weather>, var main: Main, var wind: Wind, var sys: Sys, var name: String){
     override fun toString(): String{
         return "It is ${weather[0].description} in ${name}"
     }
 }
 
-class Weather {
-    @SerializedName("id")
-    var id: Int = 0
-    @SerializedName("main")
-    var main: String? = null
-    @SerializedName("description")
-    var description: String? = null
-    @SerializedName("icon")
-    var icon: String? = null
+class Weather { @SerializedName("id") var id: Int = 0; @SerializedName("main") var main: String? = null; @SerializedName("description") var description: String? = null; @SerializedName("icon") var icon: String? = null
 }
 
 class Clouds {
