@@ -108,18 +108,19 @@
             android:background="@color/colorSecondary"
             />
 
-        <TextView
-            android:id="@+id/lblConditionsPlaceholder"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/bebasfont"
-            android:text="PlaceHolder"
-            android:textColor="@color/colorLightPink"
-            android:textSize="20sp"
-            app:layout_constraintBottom_toTopOf="@+id/btnRecommendations"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/lblConditions"
-            app:layout_constraintVertical_bias="0.116" />
+    <TextView
+        android:id="@+id/lblConditionsPlaceholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bebasfont"
+        android:text="PlaceHolder"
+        android:textAlignment="center"
+        android:textColor="@color/colorLightPink"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnRecommendations"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblConditions"
+        app:layout_constraintVertical_bias="0.116" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
