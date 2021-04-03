@@ -2,7 +2,6 @@ package edu.uc.hornunjb.weatherwear
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.TextView
 import android.widget.Toast
 import androidx.lifecycle.Observer
@@ -10,7 +9,6 @@ import androidx.lifecycle.ViewModelProvider
 import edu.uc.hornunjb.weatherwear.repo.Repository
 import edu.uc.hornunjb.weatherwear.ui.main.MainViewModel
 import edu.uc.hornunjb.weatherwear.ui.main.MainViewModelFactory
-import kotlinx.android.synthetic.main.weather_data_fragment.*
 import kotlin.math.round
 
 
@@ -42,7 +40,13 @@ class MainActivity : AppCompatActivity() {
             val city = response.name
             val humidity = response.main.humidity.toString() + "%"
             val pressure = response.main.pressure
-            val tempRange = round((response.main.temp_min -273)*9/5 + 32).toInt().toString() + " to " + round((response.main.temp_max -273)*9/5 + 32).toInt().toString() + " Degrees"
+
+            //Formats temperature
+            fun formatText(temp:Float):String{
+                return round((temp -273)*9/5 + 32).toInt().toString()
+            }
+            
+            val tempRange = formatText(response.main.temp_min) + " to " + formatText(response.main.temp_max) + " Degrees"
             val wind = response.wind.speed.toString() + " mph"
             val otherConditions = (response.weather[0].main).toString() + " - " +  response.weather[0].description.toString() + "\n" + "Humidity: " + humidity + "       " +"\n"+ "Pressure: " + pressure + " units" + "\n" + "Wind: " + wind
 
