@@ -4,6 +4,69 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorSecondaryDark"
     tools:context=".RecommendationsListActivity">
+
+    <TextView
+        android:id="@+id/lblRecommendations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:fontFamily="@font/bebasfont"
+        android:text="Recommendations"
+        android:textColor="@color/colorLightPink"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextRecommendations"
+        android:layout_width="326dp"
+        android:layout_height="545dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorSecondary"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="none"
+        android:textColor="@color/colorLightPink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/lblRecommendationHeaders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="134dp"
+        android:fontFamily="@font/bebasfont"
+        android:text="Clothing      Conditions      Temp"
+        android:textColor="@color/colorLightPink"
+
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/editTextRecommendations"
+        app:layout_constraintStart_toStartOf="@+id/editTextRecommendations"
+        app:layout_constraintTop_toTopOf="@+id/editTextRecommendations" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/editTextRecommendations"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+        app:srcCompat="@drawable/ic_delete" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="43dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextRecommendations"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_add" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
