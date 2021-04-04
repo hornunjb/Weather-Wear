@@ -1,8 +1,10 @@
 package edu.uc.hornunjb.weatherwear
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.lifecycle.Observer
@@ -21,6 +23,13 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.weather_data_fragment)
+
+        //Recommendations button on MainActivity to take you to RecommendationsListAcitivty
+        val button = findViewById<Button>(R.id.btnRecommendations)
+        button.setOnClickListener{
+            val intent = Intent(this, RecommendationsListActivity::class.java)
+            startActivity(intent)
+        }
 
         //Creating TextView Objects to bind to our fragment
         var temperatureText: TextView
