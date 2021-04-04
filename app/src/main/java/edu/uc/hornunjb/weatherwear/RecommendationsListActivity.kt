@@ -11,10 +11,13 @@ class RecommendationsListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recommendations_list)
 
-        val button = findViewById<ImageButton>(R.id.imgBtnAdd)
-        button.setOnClickListener{
+        //Clicking the '+' icon will bring you to the CreateRecommendationActivity, where a user creates a new recommendation
+        val btnAdd = findViewById<ImageButton>(R.id.imgBtnAdd)
+        btnAdd.setOnClickListener{
             val intent = Intent(this, CreateRecommendationActivity::class.java)
             startActivity(intent)
         }
+
+
     }
 }
