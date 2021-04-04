@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.weather_data_fragment)
 
+        //Recommendations button on MainActivity to take you to RecommendationsListAcitivty
         val button = findViewById<Button>(R.id.btnRecommendations)
         button.setOnClickListener{
             val intent = Intent(this, RecommendationsListActivity::class.java)
