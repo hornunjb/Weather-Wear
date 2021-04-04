@@ -25,7 +25,7 @@
         android:id="@+id/editTextClothing"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="312dp"
+        android:layout_marginTop="156dp"
         android:ems="10"
         android:fontFamily="@font/bebasfont"
         android:inputType="textPersonName"
@@ -81,26 +81,28 @@
         android:id="@+id/btnCancel"
         android:layout_width="151sp"
         android:layout_height="48sp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="156dp"
         android:background="@color/colorSecondaryDarker"
         android:text="Cancel"
         android:textColor="@color/colorLightPink"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnConfirm"
-        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintHorizontal_bias="0.413"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnConfirm"
         android:layout_width="151sp"
         android:layout_height="48sp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="156dp"
         android:background="@color/colorSecondaryDarker"
         android:text="Confirm"
         android:textColor="@color/colorLightPink"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintHorizontal_bias="0.892"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
