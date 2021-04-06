@@ -59,13 +59,10 @@ class MainActivity : AppCompatActivity() {
             val wind = response.wind.speed.toString() + " mph"
             val otherConditions = response.weather[0].main.toString() + " - " +  response.weather[0].description.toString() + "\n" + "Humidity: " + humidity + "       " + "Pressure: " + pressure + " units" + "\n" + "Wind: " + wind
 
-            //Finding Fragment Labels by Id and setting them to our response
-            cityText = findViewById(R.id.lblLocationPlaceholder)
-            cityText.text = city
-            conditionsText = findViewById(R.id.lblConditionsPlaceholder)
-            conditionsText.text = otherConditions
-            temperatureText=findViewById(R.id.lblTempPlaceholder)
-            temperatureText.text = tempRange
+            //setting fragment labels to our response
+            lblLocationPlaceholder.text = city
+            lblConditionsPlaceholder.text = otherConditions
+            lblTempPlaceholder.text = tempRange
 
         })
 
