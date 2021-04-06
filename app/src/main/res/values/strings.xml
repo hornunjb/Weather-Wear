@@ -9,4 +9,11 @@
     <string name="recommendations">Recommendations</string>
     <string name="recommendationsList">Recommendations List</string>
     <string name="textview">TextView</string>
+    <string name="newRecommendation">New Recommendation</string>
+    <string name="clothingString">Clothing…</string>
+    <string name="conditionsString">Conditions…</string>
+    <string name="minimumTemp">Minimum Temp.</string>
+    <string name="maximumTemp">Maximum Temp.</string>
+    <string name="cancelString">Cancel</string>
+    <string name="confirmString">Confirm</string>
 </resources>
