@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
+import kotlinx.android.synthetic.main.activity_create_recommendation.*
 
 class CreateRecommendationActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -12,8 +13,7 @@ class CreateRecommendationActivity : AppCompatActivity() {
         setContentView(R.layout.activity_create_recommendation)
 
         //Clicking the 'cancel' button will return you to the RecommendationsListActivity
-        val button = findViewById<Button>(R.id.btnCancel)
-        button.setOnClickListener{
+        btnCancel.setOnClickListener{
             val intent = Intent(this, RecommendationsListActivity::class.java)
             startActivity(intent)
         }
