@@ -34,11 +34,7 @@ class MainActivity : AppCompatActivity() {
         //Creating TextView Objects to bind to our fragment
         var temperatureText: TextView
         var cityText: TextView
-        var countryText: TextView
-        var humidityText: TextView
-        var pressureText: TextView
         var conditionsText: TextView
-        var windText: TextView
 
         Toast.makeText(this, "How's the Weather?", Toast.LENGTH_SHORT).show()
 
