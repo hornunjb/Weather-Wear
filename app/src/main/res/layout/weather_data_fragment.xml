@@ -41,11 +41,11 @@
             android:layout_height="48sp"
             android:layout_marginBottom="272sp"
             android:text="Recommendations"
-            android:textColor="@color/colorLightPink"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
+            android:textColor="@color/colorLightPink"
             android:background="@color/colorSecondaryDarker"
             />
 
@@ -122,4 +122,16 @@
             app:layout_constraintTop_toBottomOf="@+id/lblConditions"
             app:layout_constraintVertical_bias="0.116" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/btnSetLocation"
+        android:layout_width="152dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorSecondaryDarker"
+        android:text="Set Location"
+        android:textColor="@color/colorLightPink"
+        app:layout_constraintBottom_toTopOf="@+id/btnRecommendations"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

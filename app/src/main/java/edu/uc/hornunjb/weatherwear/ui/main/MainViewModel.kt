@@ -11,9 +11,9 @@ class MainViewModel(private val repository: Repository) : ViewModel() {
 
     val myResponse: MutableLiveData<WeatherResponse> = MutableLiveData()
 
-    fun getPost() {
+    fun getPost(CityName:String) {
         viewModelScope.launch {
-            val response: WeatherResponse = repository.getPost()
+            val response: WeatherResponse = repository.getPost(CityName)
             myResponse.value = response
         }
     }
