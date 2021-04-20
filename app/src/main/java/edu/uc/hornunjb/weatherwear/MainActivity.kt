@@ -15,9 +15,11 @@ import android.util.Log
 import android.widget.TextView
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
+import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.google.android.gms.location.*
+import edu.uc.hornunjb.weatherwear.dao.RecommendationsDatabase
 import edu.uc.hornunjb.weatherwear.repo.Repository
 import edu.uc.hornunjb.weatherwear.ui.main.MainViewModel
 import edu.uc.hornunjb.weatherwear.ui.main.MainViewModelFactory
@@ -26,7 +28,6 @@ import java.util.*
 import java.util.jar.Manifest
 import kotlin.math.round
 
-//TODO: https://youtu.be/vard0CUTLbA?t=1272
 class MainActivity : AppCompatActivity() {
 
     private var PERMISSION_ID = 76;
@@ -38,22 +39,30 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.weather_data_fragment)
 
-
-
         Toast.makeText(this, "How's the Weather?", Toast.LENGTH_SHORT).show()
 
         //Location
         fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this)
 
-        btnSetLocation.setOnClickListener{
+        btnMyLocation.setOnClickListener{
             getLastLocation()
+        }
+
+        btnRecommendations.setOnClickListener{
+
         }
 
         defaultLocationBoot()
 
     }
+
+    private fun giveRecommendationsByTemp(temp:Double)
+    {
+
+    }
+
     //This gets a default city and displays the information from weather API. In this case I set it to indianapolis.
-    private fun defaultLocationBoot(CityName:String = "Indianapolis")
+    private fun defaultLocationBoot(CityName:String = "Cincinnati")
     {
         //Creating TextView Objects to bind to our fragment
         var temperatureText: TextView
@@ -95,9 +104,11 @@ class MainActivity : AppCompatActivity() {
         var Address = geoCoder.getFromLocation(lat, long, 1)
 
         CityName = Address[0].locality
+        //Toast.makeText(this, "City = " + CityName, Toast.LENGTH_SHORT).show()
         return CityName
     }
 
+    @SuppressLint("MissingPermission")
     private fun getLastLocation(){
         if(checkPermissions())
         {
@@ -109,7 +120,7 @@ class MainActivity : AppCompatActivity() {
                     getNewLocation()
                 }else{
                     //Put fragment object here to display location
-                    Toast.makeText(this, "Your Current Coordinates are :\nLat:" + location.latitude + " ; Long:" + location.longitude, Toast.LENGTH_SHORT).show()
+                    //Toast.makeText(this, "Your Current Coordinates are :\nLat:" + location.latitude + " ; Long:" + location.longitude, Toast.LENGTH_SHORT).show()
                     defaultLocationBoot(getCityName(location.latitude, location.longitude))
                 }}
             }else{
@@ -120,6 +131,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    @SuppressLint("MissingPermission")
     private fun getNewLocation(){
         locationRequest = LocationRequest()
         locationRequest.priority = LocationRequest.PRIORITY_HIGH_ACCURACY
