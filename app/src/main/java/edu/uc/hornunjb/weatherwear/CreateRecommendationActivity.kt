@@ -17,5 +17,6 @@ class CreateRecommendationActivity : AppCompatActivity() {
             val intent = Intent(this, RecommendationsListActivity::class.java)
             startActivity(intent)
         }
+
     }
 }

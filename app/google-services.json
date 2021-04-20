@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "137376760278",
+    "project_id": "weather-wear-7e22a",
+    "storage_bucket": "weather-wear-7e22a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137376760278:android:e6091905eaecdce3a72477",
+        "android_client_info": {
+          "package_name": "edu.uc.hornunjb.weatherwear"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137376760278-8imgjmf0a2ssu4h3hel33cs8q8scn3qj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA305Gwd8kCu_Z1vuFrf3Wb5rXww_jggf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137376760278-8imgjmf0a2ssu4h3hel33cs8q8scn3qj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
