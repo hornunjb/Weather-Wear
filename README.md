@@ -6,7 +6,7 @@ Jacob Hornung
 
 Mason Miceklini
 
-Mark Rankey
+~~Mark Rankey~~
 
 ## Introduction
 
