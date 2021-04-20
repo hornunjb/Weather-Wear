@@ -12,6 +12,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Looper
 import android.util.Log
+import android.view.ViewGroup
+import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
@@ -54,6 +56,17 @@ class MainActivity : AppCompatActivity() {
 
         defaultLocationBoot()
 
+        /* Uncomment this to show off Firebase Crashlytics
+        val crashButton = Button(this)
+        crashButton.text = "Crash!"
+        crashButton.setOnClickListener {
+            throw RuntimeException("Test Crash") // Force a crash
+        }
+
+        addContentView(crashButton, ViewGroup.LayoutParams(
+            ViewGroup.LayoutParams.MATCH_PARENT,
+            ViewGroup.LayoutParams.WRAP_CONTENT))
+        */
     }
 
     private fun giveRecommendationsByTemp(temp:Double)
